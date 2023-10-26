@@ -46,7 +46,8 @@
 .sun {
   width: 500px;
   position: absolute;
-  margin-left: 250px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .input {
@@ -54,7 +55,8 @@
   padding: 7px 7px;
   position: absolute;
   margin-top: 200px;
-  margin-left: 420px;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: Drugs-Light;
   text-align:center;
   color: #ffffff;
@@ -63,10 +65,11 @@
 }
 
 .location {
-  font-size: 60px;
+  font-size: 52px;
   position: absolute;
   margin-top: 280px;
-  margin-left: 320px;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: Vetrino;
   font-weight: 900;
   color: #ffffff;
@@ -75,7 +78,8 @@
 .temp {
   position: absolute;
   margin-top: 370px;
-  margin-left: 480px;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 50px;
   font-family: Drugs-Light;
   color: #ffffff;
@@ -84,7 +88,8 @@
 .tempMax {
   position: absolute;
   margin-top: 420px;
-  margin-left: 450px;
+  left: 46%;
+  transform: translateX(-50%);
   font-size: 20px;
   color: #ffffffa5;
   font-family: Drugs-Light;
@@ -93,7 +98,8 @@
 .tempMin {
   position: absolute;
   margin-top: 420px;
-  margin-left: 515px;
+  left: 53%;
+  transform: translateX(-50%);
   font-size: 20px;
   color: #ffffffa5;
   font-family: Drugs-Light;
@@ -105,6 +111,7 @@
   font-weight: 900;
   position: absolute;
   margin-top: 800px;
-  margin-left: 490px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 

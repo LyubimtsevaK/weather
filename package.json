@@ -12,7 +12,6 @@
     "buffer": "^6.0.3",
     "constants": "^0.0.2",
     "constants-browserify": "^1.0.0",
-    "google-translate-api": "^2.3.0",
     "http": "^0.0.1-security",
     "https": "^1.0.0",
     "moment": "^2.29.4",
