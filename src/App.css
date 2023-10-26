@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+@font-face {
+	font-family: 'Curve-Bold'; 
+	src: url(/font/Curve-Bold.ttf); 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: 'Christopher'; 
+	src: url(/font/Christopher.otf); 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+	font-family: 'Floripa'; 
+	src: url(/font/Floripa.ttf); 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+	font-family: 'Mont'; 
+	src: url(/font/Mont.ttf); 
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+	font-family: 'Vetrino'; 
+	src: url(/font/Vetrino.otf); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+	font-family: 'Sans-bold'; 
+	src: url(/font/Sans-bold.ttf); 
 }
+
+@font-face {
+	font-family: 'Drugs-Light'; 
+	src: url(/font/Drugs-Light.otf); 
+}
+
+
+
+
+.head {
+  background-color:  #000000;
+  background-size: 100%;
+  height: 1170px;
+  min-width: 1366px;
+}
+
+.sun {
+  width: 500px;
+  position: absolute;
+  margin-left: 250px;
+}
+
+.input {
+  border-radius: 40px;
+  padding: 7px 7px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 420px;
+  font-family: Drugs-Light;
+  text-align:center;
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #000000;
+}
+
+.location {
+  font-size: 60px;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 320px;
+  font-family: Vetrino;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.temp {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 480px;
+  font-size: 50px;
+  font-family: Drugs-Light;
+  color: #ffffff;
+}
+
+.tempMax {
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 450px;
+  font-size: 20px;
+  color: #ffffffa5;
+  font-family: Drugs-Light;
+}
+
+.tempMin {
+  position: absolute;
+  margin-top: 420px;
+  margin-left: 515px;
+  font-size: 20px;
+  color: #ffffffa5;
+  font-family: Drugs-Light;
+}
+
+.weatherMain {
+  color: #ffffffa5;
+  font-family: Drugs-Light;
+  font-weight: 900;
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 490px;
+}
+
