@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Sun from './pic/sun.gif'
 import './App.css';
+// import lightning from './pic/lightning.gif'
+import planet from './pic/planet.gif'
 
 // import translate from 'google-translate-api';
 
@@ -33,7 +35,7 @@ const App = () => {
     
           } catch (error) {
             console.log("Ошибка при выполнении запроса:", error);
-          }
+          } 
         }
       };
   return (
@@ -64,6 +66,7 @@ const App = () => {
       <div className='weatherMain'>
         {weatherMain}
       </div>
+      <img src={planet} alt='' className='planet'/>
     </div>
   );
 }
